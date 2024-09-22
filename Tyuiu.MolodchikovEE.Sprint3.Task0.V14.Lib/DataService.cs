@@ -8,7 +8,7 @@ namespace Tyuiu.MolodchikovEE.Sprint3.Task0.V14.Lib
         {
             double sumSeries = 0;
             int i;
-            for (i = startValue; i <= stopValue; i++) 
+            for (i = value; i <= stopValue; i++) 
             {
                 sumSeries = sumSeries * (Math.Pow((1 / (Math.Pow(i, 2))), -1));
             }
