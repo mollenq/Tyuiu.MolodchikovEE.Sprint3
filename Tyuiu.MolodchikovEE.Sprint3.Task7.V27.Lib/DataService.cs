@@ -20,7 +20,7 @@ namespace Tyuiu.MolodchikovEE.Sprint3.Task7.V27.Lib
                 }
                 else 
                 { 
-                    y = Math.Round((Math.Cos(x) / (x + 1)) - (Math.Cos(x) * 1.3) + (3 * x), 2);
+                    y = Math.Round((Math.Cos(x) / (x + 1)) - (Math.Cos(x) * 1.3) + (3 * x), 3);
                     
                 }
                 Console.WriteLine(y);
