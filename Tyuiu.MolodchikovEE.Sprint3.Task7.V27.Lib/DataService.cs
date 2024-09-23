@@ -8,7 +8,7 @@ namespace Tyuiu.MolodchikovEE.Sprint3.Task7.V27.Lib
         {
             double[] result;
             int len = (stopValue - startValue) + 1;
-            result = new double[len];
+            result = new double[11];
             double y;
             int count = 0;
             for (int x = startValue; x <= stopValue; x++) 
