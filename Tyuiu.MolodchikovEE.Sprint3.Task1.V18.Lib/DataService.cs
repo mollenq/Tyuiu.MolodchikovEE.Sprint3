@@ -10,11 +10,11 @@ namespace Tyuiu.MolodchikovEE.Sprint3.Task1.V18.Lib
 
             while (startValue <= stopValue) 
             {
-                res = res + (Math.Sin(startValue) * (Math.Pow((1 / 4), 2)));
+                res = res + ((Math.Sin(startValue) * (Math.Pow((1 / 4), 2))));
 
                 startValue++;
 
-            } return res;
+            } return Math.Round(res,3);
         }
     }
 }
