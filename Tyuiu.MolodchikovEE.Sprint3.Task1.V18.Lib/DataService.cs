@@ -8,7 +8,7 @@ namespace Tyuiu.MolodchikovEE.Sprint3.Task1.V18.Lib
         {
             double res = 0;
 
-            while (startValue < stopValue) 
+            while (startValue <= stopValue) 
             {
                 res = res + (Math.Sin(startValue) * (Math.Pow((1 / 4), 2)));
 
